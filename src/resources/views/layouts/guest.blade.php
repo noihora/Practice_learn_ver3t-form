@@ -5,17 +5,28 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>Atte</title>
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body>
-        <div class="font-sans text-gray-900 antialiased">
-            {{ $slot }}
-        </div>
+        <div class="flex flex-col h-screen">    
+            <header>
+                <div class="pl-10 py-5">
+                    <div class="sticky top-0 font-extrabold text-3xl">
+                        Atte
+                    </div>
+                </div>
+            </header>    
+            <div class="font-sans text-gray-900 antialiased">
+                {{ $slot }}
+            </div>
+            <div class="bg-white sticky bottom-0 text-center font-medium">
+                <small>Atte,inc.</small>
+            </div>
+        </div>    
     </body>
 </html>
