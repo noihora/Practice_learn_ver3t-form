@@ -45,3 +45,10 @@ MySQL
 ## ER図
 
 ## 環境構築
+**GitHub　URL**
+
+https://github.com/noihora/Practice_learn_ver3t-form.git
+
+**クローン**
+
+git clone git@github.com:noihora/Practice_learn_ver3t-form.git
