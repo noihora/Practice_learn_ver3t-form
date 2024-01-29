@@ -32,9 +32,11 @@ http://localhost/
 **フレームワーク**
 
 Laravel Framework 8.83.27
+
 **言語**
 
 PHP
+
 **DB**
 
 MySQL
